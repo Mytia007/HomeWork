@@ -8,7 +8,9 @@ namespace HomeWork
         {
             IBaseHomeTask[] homeTasks = new IBaseHomeTask[]
             {
-                new HomeTask1()
+                new HomeTask1(),
+                new HomeTask2()
+                
             };
 
             Console.WriteLine("Enter home task numbers separated by commas (e.g., 1,2,3):");
